@@ -1,2 +1,2 @@
-# Calcular-M-dia-JS---
+# Calcular-Media-JS
 Aula JavaScript Unicap
