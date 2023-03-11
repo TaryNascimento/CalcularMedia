@@ -1,14 +1,14 @@
-const numero1 = parseInt (document.getElementById("numero1").value);
+const numero1 = document.getElementById("n1");
 
-const numero2 = parseInt (document.getElementById("numero2").value);
+const numero2 = document.getElementById("n2");
 
-const numero3 = parseInt (document.getElementById("numero3").value);
+const numero3 = document.getElementById("n3");
 
 const btCalcular = document.getElementById("btCalcular");
 
 const calcular = () => {
 
-    const media = (numero1 + numero2 + numero3)/3;
+    const media = (number(numero1.value) + number(numero2.value) + number(numero3.value))/3;
 
     alert(`A média dos três valores é: ${media}`);
 
